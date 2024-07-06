@@ -29,6 +29,7 @@ struct nodo {
     nodo* abajo; // Puntero al nodo en otra lista
 };
 
+
 void insertar_cancion(cancion*& nodo_principal, int id, string nombre, string artista, string genero, int anio) {
     cancion* nueva_cancion = new cancion;
     
